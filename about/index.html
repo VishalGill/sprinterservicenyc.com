@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Sprinter Service New York</title>
+    <meta name="description" content="Professional sprinter service serving New York, NY. Book luxury transportation today.">
+    <meta name="keywords" content="Sprinter Service, New York, NY, airport transfer, chauffeur, limousine">
+    <link rel="canonical" href="https://sprinterservicenyc.com/about/">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="About | Sprinter Service New York">
+    <meta property="og:description" content="Professional sprinter service serving New York, NY. Book luxury transportation today.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sprinterservicenyc.com/about/">
+    
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+    {
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Sprinter Service New York",
+  "description": "Professional sprinter service serving New York, New York",
+  "url": "https://sprinterservicenyc.com",
+  "telephone": "+1-XXX-XXX-XXXX",
+  "email": "info@sprinterservicenyc.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "New York",
+    "addressRegion": "NY",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "40.7128",
+    "longitude": "-74.0060"
+  },
+  "priceRange": "$$$",
+  "areaServed": {
+    "@type": "City",
+    "name": "New York"
+  }
+}
+    </script>
+    
+    <style>
+        :root {
+            --primary: #1e40af;
+            --primary-dark: #1e3a8a;
+            --background: #ffffff;
+            --text: #1e293b;
+            --text-light: #64748b;
+            --footer-bg: #1e40af;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            background: var(--background);
+        }
+        
+        /* Navigation */
+        nav {
+            background: white;
+            padding: 1rem 2rem;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 900;
+            color: #000000;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-style: italic;
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 2.5rem;
+            list-style: none;
+            align-items: center;
+        }
+        
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text);
+            font-weight: 700;
+            text-transform: uppercase;
+            font-style: italic;
+            font-size: 0.9rem;
+            transition: color 0.3s;
+        }
+        
+        .nav-links a:hover {
+            color: var(--primary);
+        }
+        
+        .nav-links .btn-primary {
+            color: white !important;
+            padding: 0.75rem 1.5rem;
+            border-radius: 50px;
+            font-style: normal;
+        }
+        
+        .nav-links .btn-primary:hover {
+            color: white !important;
+            opacity: 0.9;
+        }
+        
+        /* Dropdown */
+        .dropdown {
+            position: relative;
+        }
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background: white;
+            min-width: 200px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            padding: 0.5rem 0;
+            z-index: 1001;
+        }
+        
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        
+        .dropdown-content a {
+            display: block;
+            padding: 0.75rem 1rem;
+            font-weight: 600;
+            text-transform: none;
+            font-style: normal;
+        }
+        
+        .dropdown-content a:hover {
+            background: #f1f5f9;
+        }
+        
+        /* Hero */
+        .hero {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+        
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            font-weight: 900;
+        }
+        
+        .hero p {
+            font-size: 1.25rem;
+            max-width: 800px;
+            margin: 0 auto 2rem;
+            opacity: 0.9;
+        }
+        
+        /* Booking Widget */
+        .booking-widget {
+            background: white;
+            border-radius: 12px;
+            padding: 1rem;
+            max-width: 900px;
+            margin: -2rem auto 2rem;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+            position: relative;
+            z-index: 10;
+        }
+        
+        .booking-widget iframe {
+            width: 100%;
+            height: 400px;
+            border: none;
+            border-radius: 8px;
+        }
+        
+        /* Content */
+        .content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 4rem 2rem;
+        }
+        
+        .content h2 {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            color: var(--primary);
+        }
+        
+        .content h3 {
+            font-size: 1.5rem;
+            margin: 2rem 0 1rem;
+            color: var(--text);
+        }
+        
+        .content p {
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+        
+        .content ul {
+            margin: 1rem 0 2rem 2rem;
+        }
+        
+        .content li {
+            margin-bottom: 0.5rem;
+        }
+        
+        /* Grid */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+        
+        .card {
+            background: #f8fafc;
+            border-radius: 12px;
+            padding: 2rem;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        
+        .card h3 {
+            margin-top: 0;
+            color: var(--primary);
+        }
+        
+        /* Pricing Table */
+        .pricing-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 2rem 0;
+        }
+        
+        .pricing-table th,
+        .pricing-table td {
+            padding: 1rem;
+            text-align: left;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        
+        .pricing-table th {
+            background: var(--primary);
+            color: white;
+        }
+        
+        .pricing-table tr:hover {
+            background: #f8fafc;
+        }
+        
+        /* CTA Banner */
+        .cta-banner {
+            background: var(--primary);
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+        
+        .cta-banner h2 {
+            color: white;
+            margin-bottom: 1rem;
+        }
+        
+        .cta-banner p {
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+        
+        .btn {
+            display: inline-block;
+            background: white;
+            color: var(--primary);
+            padding: 1rem 2.5rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 700;
+            font-size: 1.1rem;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .btn:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+        }
+        
+        /* Fleet */
+        .fleet-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+        }
+        
+        .vehicle-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+        }
+        
+        .vehicle-card img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+        
+        .vehicle-card .info {
+            padding: 1.5rem;
+        }
+        
+        /* Footer */
+        footer {
+            background: var(--footer-bg);
+            color: white;
+            padding: 4rem 2rem 0;
+        }
+        
+        .footer-main {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 3rem;
+            padding-bottom: 3rem;
+        }
+        
+        .footer-main h4 {
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+            text-transform: uppercase;
+        }
+        
+        .footer-main a {
+            color: rgba(255,255,255,0.8);
+            text-decoration: none;
+            display: block;
+            margin-bottom: 0.75rem;
+            transition: color 0.3s;
+        }
+        
+        .footer-main a:hover {
+            color: white;
+        }
+        
+        .footer-map {
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        
+        .footer-map iframe {
+            width: 100%;
+            height: 200px;
+            border: none;
+        }
+        
+        .footer-separator {
+            height: 1px;
+            background: rgba(255,255,255,0.2);
+            margin: 0;
+        }
+        
+        .footer-bottom {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1.5rem 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        
+        .footer-bottom p {
+            margin: 0;
+            opacity: 0.8;
+            font-size: 0.9rem;
+        }
+        
+        .footer-bottom a {
+            color: rgba(255,255,255,0.8);
+            text-decoration: none;
+        }
+        
+        /* FAQ */
+        .faq-item {
+            background: #f8fafc;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            overflow: hidden;
+        }
+        
+        .faq-question {
+            padding: 1.25rem;
+            font-weight: 600;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .faq-answer {
+            padding: 0 1.25rem 1.25rem;
+            display: none;
+        }
+        
+        .faq-item.active .faq-answer {
+            display: block;
+        }
+        
+        /* Mobile */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+            
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .footer-bottom {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <a href="/" class="logo">Sprinter Service New York</a>
+            <ul class="nav-links">
+                <li class="dropdown">
+                    <a href="/services/">SERVICES</a>
+                    <div class="dropdown-content">
+                        <a href="/services/airport-transfers/">Airport Transfers</a>
+                        <a href="/services/corporate-travel/">Corporate Travel</a>
+                        <a href="/services/hourly/">Hourly Charter</a>
+                        <a href="/services/special-events/">Special Events</a>
+                        <a href="/services/city-to-city/">City-to-City</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="/airports/">AIRPORTS</a>
+                    <div class="dropdown-content">
+                        <a href="/airports/jfk/">JFK - John F. Kennedy International</a>
+<a href="/airports/lga/">LGA - LaGuardia Airport</a>
+<a href="/airports/ewr/">EWR - Newark Liberty International</a>
+<a href="/airports/teb/">TEB - Teterboro Airport</a>
+<a href="/airports/hpn/">HPN - Westchester County Airport</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="/locations/">LOCATIONS</a>
+                    <div class="dropdown-content">
+                        <a href="/locations/manhattan/">Manhattan</a>
+<a href="/locations/brooklyn/">Brooklyn</a>
+<a href="/locations/long-island/">Long Island</a>
+<a href="/locations/hamptons/">The Hamptons</a>
+<a href="/locations/westchester/">Westchester</a>
+<a href="/locations/greenwich-ct/">Greenwich CT</a>
+<a href="/locations/tribeca/">Tribeca</a>
+<a href="/locations/upper-east-side/">Upper East Side</a>
+                    </div>
+                </li>
+                <li><a href="/fleet/">FLEET</a></li>
+                <li><a href="/about/">ABOUT</a></li>
+                <li><a href="/reservations/" class="btn btn-primary">BOOK NOW</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    
+    <div class="hero">
+        <h1>About Us</h1>
+        <p>Your premier sprinter service in New York.</p>
+    </div>
+    <section class="content">
+        <h2>About Sprinter Service New York</h2>
+        <p>We are New York's premier sprinter service, dedicated to providing exceptional ground transportation for executives, business travelers, and discerning individuals throughout New York.</p>
+        <p>Our commitment to excellence, reliability, and professionalism has made us the transportation provider of choice for Fortune 500 companies, celebrities, diplomats, and individuals who demand the highest level of service.</p>
+        <h3>Our Mission</h3>
+        <p>To provide the safest, most reliable, and luxurious ground transportation experience in New York. We achieve this through:</p>
+        <ul>
+            <li>Rigorous chauffeur selection and training</li>
+            <li>Meticulous vehicle maintenance</li>
+            <li>Advanced booking and dispatch technology</li>
+            <li>24/7 customer service</li>
+            <li>Continuous improvement based on client feedback</li>
+        </ul>
+        <h3>Our Values</h3>
+        <ul>
+            <li><strong>Safety:</strong> The safety of our passengers is our top priority</li>
+            <li><strong>Reliability:</strong> On-time, every time</li>
+            <li><strong>Professionalism:</strong> Courteous, discrete, and polished service</li>
+            <li><strong>Excellence:</strong> Exceeding expectations in every detail</li>
+        </ul>
+    </section>
+    
+    
+    <footer>
+        <div class="footer-main">
+            <div>
+                <h4>Contact Us</h4>
+                <p style="margin-bottom: 1rem;">New York, NY</p>
+                <p style="margin-bottom: 0.5rem;">
+                    <a href="mailto:info@sprinterservicenyc.com">info@sprinterservicenyc.com</a>
+                </p>
+                <p>
+                    <a href="tel:+1XXX-XXX-XXXX">(XXX) XXX-XXXX</a>
+                </p>
+            </div>
+            <div>
+                <h4>Services</h4>
+                <a href="/services/airport-transfers/">Airport Transfers</a>
+                <a href="/services/corporate-travel/">Corporate Travel</a>
+                <a href="/services/hourly/">Hourly Charter</a>
+                <a href="/services/special-events/">Special Events</a>
+                <a href="/services/city-to-city/">City-to-City</a>
+            </div>
+            <div>
+                <h4>Quick Links</h4>
+                <a href="/about/">About Us</a>
+                <a href="/fleet/">Our Fleet</a>
+                <a href="/faq/">FAQ</a>
+                <a href="/contact/">Contact</a>
+                <a href="/reservations/">Book Now</a>
+            </div>
+            <div>
+                <h4>Service Area</h4>
+                <div class="footer-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100000!2d-74.0060!3d40.7128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNew+York,+NY!5e0!3m2!1sen!2sus!4v1600000000000!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+        <hr class="footer-separator">
+        <div class="footer-bottom">
+            <p>&copy; 2026 Sprinter Service New York. All rights reserved.</p>
+            <p>
+                <a href="/privacy/">Privacy Policy</a> | 
+                <a href="/terms/">Terms of Service</a>
+            </p>
+        </div>
+    </footer>
+    
+    <script>
+        // FAQ toggle
+        document.querySelectorAll('.faq-question').forEach(q => {
+            q.addEventListener('click', () => {
+                q.parentElement.classList.toggle('active');
+            });
+        });
+    </script>
+</body>
+</html>
